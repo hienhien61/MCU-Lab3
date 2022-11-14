@@ -97,11 +97,12 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  status = MODE1;
+  status = INIT1;
   setTimer1(1000);
+  setTimer2(500);
   while (1)
   {
-	  //fsm_automatic_run();
+//	  fsm_automatic_run();
 	  fsm_manual_run();
 
 //		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, GPIO_PIN_RESET);

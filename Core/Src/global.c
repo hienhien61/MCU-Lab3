@@ -7,5 +7,7 @@
 #include "global.h"
 
 int status = 0;
-
+int red = 5000;
+int green = 3000;
+int yellow = 2000;
 

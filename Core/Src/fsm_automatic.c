@@ -7,13 +7,13 @@
 #include "fsm_automatic.h"
 
 int count = 0;
-int counter1 = green/1000;
-int counter2 = red/1000;
+int counter1 = 0;
+int counter2 = 0;
 int segNum = 0;
 
-void fsm_automatic_run(){
+void fsm_automatic_run(int status){
 	switch(status){
-		case INIT:
+		case INIT2:
 			//TODO
 			clearLed();
 
