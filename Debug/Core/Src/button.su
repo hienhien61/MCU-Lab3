@@ -1,0 +1,6 @@
+button.c:22:6:readButton	8	static
+button.c:28:5:isSelectPressed	4	static
+button.c:35:5:isUpPressed	4	static
+button.c:42:5:isSetPressed	4	static
+button.c:50:6:subKeyProcess	16	static
+button.c:56:6:getKeyInput	16	static
