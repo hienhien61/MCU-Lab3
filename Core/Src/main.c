@@ -102,13 +102,11 @@ int main(void)
   setTimer2(500);
   while (1)
   {
-//	  fsm_automatic_run();
+	  //FSM of system
 	  fsm_manual_run();
+	  //FSM of MODE1
+	  fsm_automatic_run();
 
-//		HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, GPIO_PIN_RESET);
-//		HAL_GPIO_WritePin(EN2_GPIO_Port, EN2_Pin, GPIO_PIN_SET);
-//		HAL_GPIO_WritePin(EN3_GPIO_Port, EN3_Pin, GPIO_PIN_SET);
-//		HAL_GPIO_WritePin(EN4_GPIO_Port, EN4_Pin, GPIO_PIN_SET);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

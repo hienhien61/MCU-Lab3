@@ -24,8 +24,6 @@
 #define MODE2		13
 #define MODE3		14
 #define MODE4		15
-#define WAIT		16
-#define UP_RED		17
 
 extern int status;
 extern int red;
